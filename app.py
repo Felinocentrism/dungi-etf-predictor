@@ -9,8 +9,8 @@ from market_session import get_korea_now, get_market_session
 
 st.set_page_config(page_title="둥이 ETF 예측기", page_icon="📈", layout="wide")
 
-st.title("📈 둥이 ETF 예측기 v0.5.5")
-st.caption("ETF 이름을 누르면 바로 아래에 구성종목 등락률이 펼쳐지는 목록형 대시보드입니다.")
+st.title("📈 둥이 ETF 예측기 v0.5.6")
+st.caption("최신 구성종목을 반영한 목록형 대시보드입니다. ETF 이름을 누르면 바로 아래에 구성종목 등락률이 펼쳐집니다.")
 
 st.warning(
     "투자 판단을 대신하는 앱이 아닙니다. 무료/비공식 데이터는 지연·누락·오류가 있을 수 있습니다. "
